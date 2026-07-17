@@ -1,4 +1,2 @@
 .DS_Store
-# lhm.plugin.json stays untracked until LobeHub assigns the identifier at first
 # import; commit the finalized version after `plugin submit` succeeds.
-lhm.plugin.json

@@ -1,0 +1,151 @@
+{
+  "identifier": "whoisxmlapi-mcp-whoisxmlapi",
+  "name": "WhoisXML API MCP Server",
+  "version": "1.8.2",
+  "description": "The official WhoisXML API MCP server: 32 first-party tools for WHOIS, DNS, IP geolocation, threat intel, typosquatting, email verification, and native bulk lookups.",
+  "author": "Whois API, Inc.",
+  "authorUrl": "https://www.whoisxmlapi.com",
+  "homepage": "https://mcp.whoisxmlapi.com",
+  "cloudEndpoint": "https://mcp-hosted.whoisxmlapi.com/mcp",
+  "icon": "https://raw.githubusercontent.com/whoisxmlapi/mcp-whoisxmlapi/main/assets/logo-400x400.png",
+  "tags": [
+    "whois",
+    "dns",
+    "domain-intelligence",
+    "threat-intelligence",
+    "ip-geolocation",
+    "osint",
+    "email-verification",
+    "typosquatting"
+  ],
+  "tools": [
+    {
+      "name": "brand_alert",
+      "description": "Find newly added, dropped, or updated domains whose names contain specified brand terms."
+    },
+    {
+      "name": "bulk_dns_lookup",
+      "description": "Run DNS lookups for up to 200 domains in a single call."
+    },
+    {
+      "name": "bulk_email_verification",
+      "description": "Run email verification for up to 10,000 addresses in a single call."
+    },
+    {
+      "name": "bulk_ip_geolocation",
+      "description": "Run IP geolocation for up to 200 IP addresses in a single call."
+    },
+    {
+      "name": "bulk_job_results",
+      "description": "Fetch full per-input results for a completed native bulk job (created by `bulk_whois` or `bulk_email_verification`)."
+    },
+    {
+      "name": "bulk_job_status",
+      "description": "Check progress of an in-flight bulk job created by `bulk_whois` or `bulk_email_verification`."
+    },
+    {
+      "name": "bulk_subdomain_lookup",
+      "description": "Discover subdomains for up to 200 apex domains in a single call."
+    },
+    {
+      "name": "bulk_whois",
+      "description": "Run WHOIS lookups for up to 10,000 domains in a single call."
+    },
+    {
+      "name": "categorization",
+      "description": "Classify a domain into IAB Content Taxonomy v3.1 content categories (Website Categorization v4)."
+    },
+    {
+      "name": "disposable_email_check",
+      "description": "Check whether an email address belongs to a disposable or temporary provider (e.g., mailinator, 10minutemail, guerrillamail)."
+    },
+    {
+      "name": "dns_history",
+      "description": "Look up historical DNS records for a domain (forward) or domains historically associated with an IP (reverse)."
+    },
+    {
+      "name": "dns_lookup",
+      "description": "Resolve current DNS records for a domain — A, AAAA, MX, NS, SOA, TXT, CNAME, PTR, SRV, CAA, DS, DNSKEY, or `all`."
+    },
+    {
+      "name": "domain_and_subdomain_discovery",
+      "description": "Find newly-registered domains and subdomains containing one or more search terms, with registration dates."
+    },
+    {
+      "name": "domain_info",
+      "description": "Get an enriched WHOIS profile for a domain by combining the current record with historical records to fill redacted or missing fields."
+    },
+    {
+      "name": "domain_reputation",
+      "description": "Score a single domain's trustworthiness on a 0–100 scale by running live infrastructure and configuration checks (certificate validity, mail and name-server setup, malware-database and blackhole looku…"
+    },
+    {
+      "name": "email_verification",
+      "description": "Verify an email address via syntax check, MX lookup, and SMTP deliverability probe."
+    },
+    {
+      "name": "ip_netblocks",
+      "description": "Look up CIDR ranges, ASN number/name, organisation, and registration dates for an IP address, ASN, or organisation name."
+    },
+    {
+      "name": "ipgeolocation",
+      "description": "Get geolocation data (country, region, city, ISP, ASN) for an IP address, domain, or email."
+    },
+    {
+      "name": "registrant_alert",
+      "description": "Find newly added, dropped, or updated domains whose WHOIS records match search terms in registrant contact fields (email, name, organisation, etc.)."
+    },
+    {
+      "name": "reverse_dns",
+      "description": "Search across DNS records by pattern and return matching domains plus the record values."
+    },
+    {
+      "name": "reverse_ip",
+      "description": "Find every domain currently pointing at a given IP address, with first-/last-seen dates per domain."
+    },
+    {
+      "name": "reverse_mx",
+      "description": "Find every domain that uses a specific MX server, with first-/last-seen dates."
+    },
+    {
+      "name": "reverse_ns",
+      "description": "Find every domain delegated to a specific authoritative nameserver, with first-/last-seen dates."
+    },
+    {
+      "name": "reverse_whois",
+      "description": "Find every domain whose WHOIS record contains a given free-text search term (registrant name, email, organisation, address, etc.)."
+    },
+    {
+      "name": "reverse_whois_advanced",
+      "description": "Find domains using field-specific WHOIS searches — e.g."
+    },
+    {
+      "name": "ssl_certificates",
+      "description": "Retrieve TLS certificate details for a domain — issuer, validity period, subject alternative names (SANs), chain trust status."
+    },
+    {
+      "name": "subdomain_lookup",
+      "description": "Enumerate up to 10000 known subdomains of a single domain (the upstream API's hard cap; check the \"truncated_at_upstream_cap\" response field for whether more may exist), with first-/last-seen timestam…"
+    },
+    {
+      "name": "threat_intelligence",
+      "description": "Check whether an indicator (domain, URL, IP, CIDR, or file hash) appears in known malware, phishing, spam, or botnet feeds."
+    },
+    {
+      "name": "typosquatting",
+      "description": "Check whether a domain belongs to a typosquatting group, or expand every domain across all groups containing it."
+    },
+    {
+      "name": "website_screenshot",
+      "description": "Capture a screenshot of a web page for a URL and return it as a native image content block plus a base64-encoded JSON payload (JSON's base64 field is deprecated as of 2026-10-04; prefer the native ima…"
+    },
+    {
+      "name": "whois",
+      "description": "Look up current WHOIS / RDAP registration data for a single domain — registrar, creation/expiry/updated dates, nameservers, status codes, and contact info when not redacted."
+    },
+    {
+      "name": "whois_history",
+      "description": "Retrieve the full timeline of WHOIS changes for a domain — ownership transfers, registrar moves, nameserver swaps, and contact edits over time."
+    }
+  ]
+}
