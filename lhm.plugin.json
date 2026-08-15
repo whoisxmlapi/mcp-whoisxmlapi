@@ -1,7 +1,7 @@
 {
   "identifier": "whoisxmlapi-mcp-whoisxmlapi",
   "name": "WhoisXML API MCP Server",
-  "version": "1.8.2",
+  "version": "1.8.5",
   "description": "The official WhoisXML API MCP server: 32 first-party tools for WHOIS, DNS, IP geolocation, threat intel, typosquatting, email verification, and native bulk lookups.",
   "author": "Whois API, Inc.",
   "authorUrl": "https://www.whoisxmlapi.com",
