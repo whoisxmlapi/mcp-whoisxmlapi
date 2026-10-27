@@ -1,8 +1,8 @@
 {
   "identifier": "whoisxmlapi-mcp-whoisxmlapi",
   "name": "WhoisXML API MCP Server",
-  "version": "1.8.5",
-  "description": "The official WhoisXML API MCP server: 32 first-party tools for WHOIS, DNS, IP geolocation, threat intel, typosquatting, email verification, and native bulk lookups.",
+  "version": "1.9.1",
+  "description": "The official WhoisXML API MCP server: 34 first-party tools for WHOIS, DNS, IP geolocation, threat intel, typosquatting, email verification, and native bulk lookups.",
   "author": "Whois API, Inc.",
   "authorUrl": "https://www.whoisxmlapi.com",
   "homepage": "https://mcp.whoisxmlapi.com",
@@ -48,6 +48,10 @@
       "description": "Discover subdomains for up to 200 apex domains in a single call."
     },
     {
+      "name": "bulk_vpn_proxy_detection",
+      "description": "Check up to 100 IP addresses in one call for VPN, proxy, Tor exit, relay, hosting or CDN membership, using the VPN & Proxy Detection API's native batch endpoint."
+    },
+    {
       "name": "bulk_whois",
       "description": "Run WHOIS lookups for up to 10,000 domains in a single call."
     },
@@ -69,7 +73,7 @@
     },
     {
       "name": "domain_and_subdomain_discovery",
-      "description": "Find newly-registered domains and subdomains containing one or more search terms, with registration dates."
+      "description": "Search WhoisXMLAPI's domain and subdomain index for names containing one or more search terms."
     },
     {
       "name": "domain_info",
@@ -125,7 +129,7 @@
     },
     {
       "name": "subdomain_lookup",
-      "description": "Enumerate up to 10000 known subdomains of a single domain (the upstream API's hard cap; check the \"truncated_at_upstream_cap\" response field for whether more may exist), with first-/last-seen timestam…"
+      "description": "Enumerate the known subdomains of a single domain, with first-/last-seen timestamps per subdomain."
     },
     {
       "name": "threat_intelligence",
@@ -134,6 +138,10 @@
     {
       "name": "typosquatting",
       "description": "Check whether a domain belongs to a typosquatting group, or expand every domain across all groups containing it."
+    },
+    {
+      "name": "vpn_proxy_detection",
+      "description": "Check whether one IP address belongs to a known VPN, proxy (including residential and open proxies), Tor exit, relay, hosting or CDN network."
     },
     {
       "name": "website_screenshot",

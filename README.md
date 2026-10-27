@@ -4,7 +4,7 @@
 
 # WhoisXML API MCP Server
 
-The official [WhoisXML API](https://www.whoisxmlapi.com) MCP server: **32 first-party tools** for WHOIS, DNS, IP geolocation, threat intelligence, typosquatting, email verification, and native bulk lookups — in Claude, Cursor, VS Code, LobeChat, or any MCP client.
+The official [WhoisXML API](https://www.whoisxmlapi.com) MCP server: **34 first-party tools** for WHOIS, DNS, IP geolocation, threat intelligence, typosquatting, email verification, and native bulk lookups — in Claude, Cursor, VS Code, LobeChat, or any MCP client.
 
 - **Documentation:** <https://mcp.whoisxmlapi.com>
 - **npm package:** [`@whoisxmlapidotcom/mcp-whoisxmlapi`](https://www.npmjs.com/package/@whoisxmlapidotcom/mcp-whoisxmlapi)
@@ -55,7 +55,7 @@ Requires a WhoisXML API key — get one at <https://whoisxmlapi.com>.
 docker run -i --rm -e WHOISXMLAPI_TOKEN=at_YOUR_KEY whoisxmlapidotcom/mcp-whoisxmlapi
 ```
 
-## Tools (32)
+## Tools (34)
 
 ### Domain intelligence
 
@@ -80,8 +80,8 @@ docker run -i --rm -e WHOISXMLAPI_TOKEN=at_YOUR_KEY whoisxmlapidotcom/mcp-whoisx
 | `reverse_ip` | Every domain currently pointing at an IP, with first-/last-seen dates. |
 | `reverse_mx` | Every domain using a specific MX server. |
 | `reverse_ns` | Every domain delegated to a specific nameserver. |
-| `subdomain_lookup` | Enumerate up to 10,000 known subdomains of a domain with seen timestamps. |
-| `domain_and_subdomain_discovery` | Newly-registered domains/subdomains containing search terms (wildcards supported). |
+| `subdomain_lookup` | Enumerate a domain's known subdomains with seen timestamps, paging past the 10,000-per-request cap. |
+| `domain_and_subdomain_discovery` | Domains/subdomains of any age containing search terms (wildcards supported; `since` filters by first-seen date). |
 | `ssl_certificates` | TLS certificate details — issuer, validity, SANs, chain trust. |
 
 ### IP intelligence
@@ -90,6 +90,7 @@ docker run -i --rm -e WHOISXMLAPI_TOKEN=at_YOUR_KEY whoisxmlapidotcom/mcp-whoisx
 |---|---|
 | `ipgeolocation` | Country, region, city, ISP, ASN for an IP, domain, or email. |
 | `ip_netblocks` | CIDR ranges, ASN, organisation, and registration dates for IP/ASN/org. |
+| `vpn_proxy_detection` | Whether an IP is a known VPN, proxy, Tor exit, relay, hosting or CDN address, with a 0–100 risk score. |
 
 ### Threat & brand protection
 
@@ -118,6 +119,7 @@ docker run -i --rm -e WHOISXMLAPI_TOKEN=at_YOUR_KEY whoisxmlapidotcom/mcp-whoisx
 |---|---|
 | `bulk_whois` | WHOIS for up to 10,000 domains in one call (native bulk, async `job_id` if long-running). |
 | `bulk_email_verification` | Email verification for up to 10,000 addresses (native bulk, async if long-running). |
+| `bulk_vpn_proxy_detection` | VPN & proxy detection for up to 100 IPs in one call (native batch, always inline; Starter plan or higher). |
 | `bulk_dns_lookup` | DNS lookups for up to 200 domains, fanned out concurrently. |
 | `bulk_ip_geolocation` | IP geolocation for up to 200 IPs, fanned out concurrently. |
 | `bulk_subdomain_lookup` | Subdomain discovery for up to 200 apex domains. |
