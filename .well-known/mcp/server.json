@@ -2,11 +2,22 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.whois-api-llc/mcp-whoisxmlapi",
   "description": "34 WHOIS, DNS, IP, threat intelligence, email, and bulk tools for AI agents via WhoisXML API.",
+  "title": "WhoisXML API MCP Server",
+  "websiteUrl": "https://mcp.whoisxmlapi.com",
+  "icons": [
+    {
+      "src": "https://mcp.whoisxmlapi.com/logo-400x400.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "400x400"
+      ]
+    }
+  ],
   "repository": {
     "url": "https://github.com/whoisxmlapi/mcp-whoisxmlapi",
     "source": "github"
   },
-  "version": "1.10.1",
+  "version": "1.11.0",
   "remotes": [
     {
       "type": "streamable-http",
@@ -17,7 +28,7 @@
     {
       "registryType": "npm",
       "identifier": "@whoisxmlapidotcom/mcp-whoisxmlapi",
-      "version": "1.10.1",
+      "version": "1.11.0",
       "transport": {
         "type": "stdio"
       },
