@@ -1,7 +1,7 @@
 {
   "identifier": "whoisxmlapi-mcp-whoisxmlapi",
   "name": "WhoisXML API MCP Server",
-  "version": "1.10.0",
+  "version": "1.10.1",
   "description": "The official WhoisXML API MCP server: 34 first-party tools for WHOIS, DNS, IP geolocation, threat intel, typosquatting, email verification, and native bulk lookups.",
   "author": "Whois API, Inc.",
   "authorUrl": "https://www.whoisxmlapi.com",
@@ -145,7 +145,7 @@
     },
     {
       "name": "website_screenshot",
-      "description": "Capture a screenshot of a web page for a URL and return it as a native image content block plus a base64-encoded JSON payload (JSON's base64 field is deprecated as of 2026-10-04; prefer the native ima…"
+      "description": "Capture a screenshot of a web page for a URL and return it as a native image content block, plus a small JSON summary with its MIME type, decoded byte size and chosen type."
     },
     {
       "name": "whois",
