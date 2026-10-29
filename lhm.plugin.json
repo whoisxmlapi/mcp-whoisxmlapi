@@ -1,8 +1,8 @@
 {
   "identifier": "whoisxmlapi-mcp-whoisxmlapi",
   "name": "WhoisXML API MCP Server",
-  "version": "1.11.0",
-  "description": "The official WhoisXML API MCP server: 34 first-party tools for WHOIS, DNS, IP geolocation, threat intel, typosquatting, email verification, and native bulk lookups.",
+  "version": "1.12.0",
+  "description": "The official WhoisXML API MCP server: 35 first-party tools for WHOIS, DNS, IP geolocation, threat intel, typosquatting, email verification, and native bulk lookups.",
   "author": "Whois API, Inc.",
   "authorUrl": "https://www.whoisxmlapi.com",
   "homepage": "https://mcp.whoisxmlapi.com",
@@ -19,6 +19,10 @@
     "typosquatting"
   ],
   "tools": [
+    {
+      "name": "account_balance",
+      "description": "Show how many credits this WhoisXML API account has left on each product, and which tools spend each product's credits."
+    },
     {
       "name": "brand_alert",
       "description": "Find newly added, dropped, or updated domains whose names contain specified brand terms."
@@ -89,7 +93,7 @@
     },
     {
       "name": "ip_netblocks",
-      "description": "Look up CIDR ranges, ASN number/name, organisation, and registration dates for an IP address, ASN, or organisation name."
+      "description": "Look up CIDR ranges, ASN number/name, organisation, and each block's last-modified date for an IP address, ASN, or organisation name."
     },
     {
       "name": "ipgeolocation",
