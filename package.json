@@ -1,8 +1,8 @@
 {
   "name": "@whoisxmlapidotcom/mcp-whoisxmlapi",
-  "version": "1.11.0",
+  "version": "1.12.0",
   "mcpName": "io.github.whois-api-llc/mcp-whoisxmlapi",
-  "description": "The official WhoisXML API MCP server: 34 first-party tools for WHOIS, DNS, IP geolocation, threat intel, typosquatting, email verification, and native bulk — in Claude, Cursor, VS Code, or any MCP client.",
+  "description": "The official WhoisXML API MCP server: 35 first-party tools for WHOIS, DNS, IP geolocation, threat intel, typosquatting, email verification, and native bulk — in Claude, Cursor, VS Code, or any MCP client.",
   "homepage": "https://mcp.whoisxmlapi.com",
   "repository": {
     "type": "git",

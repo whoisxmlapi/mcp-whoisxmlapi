@@ -4,7 +4,7 @@
 
 # WhoisXML API MCP Server
 
-The official [WhoisXML API](https://www.whoisxmlapi.com) MCP server: **34 first-party tools** for WHOIS, DNS, IP geolocation, threat intelligence, typosquatting, email verification, and native bulk lookups — in Claude, Cursor, VS Code, LobeChat, or any MCP client.
+The official [WhoisXML API](https://www.whoisxmlapi.com) MCP server: **35 first-party tools** for WHOIS, DNS, IP geolocation, threat intelligence, typosquatting, email verification, and native bulk lookups — in Claude, Cursor, VS Code, LobeChat, or any MCP client.
 
 - **Documentation:** <https://mcp.whoisxmlapi.com>
 - **npm package:** [`@whoisxmlapidotcom/mcp-whoisxmlapi`](https://www.npmjs.com/package/@whoisxmlapidotcom/mcp-whoisxmlapi)
@@ -55,7 +55,7 @@ Requires a WhoisXML API key — get one at <https://whoisxmlapi.com>.
 docker run -i --rm -e WHOISXMLAPI_TOKEN=at_YOUR_KEY whoisxmlapidotcom/mcp-whoisxmlapi
 ```
 
-## Tools (34)
+## Tools (35)
 
 ### Domain intelligence
 
@@ -89,7 +89,7 @@ docker run -i --rm -e WHOISXMLAPI_TOKEN=at_YOUR_KEY whoisxmlapidotcom/mcp-whoisx
 | Tool | What it does |
 |---|---|
 | `ipgeolocation` | Country, region, city, ISP, ASN for an IP, domain, or email. |
-| `ip_netblocks` | CIDR ranges, ASN, organisation, and registration dates for IP/ASN/org. |
+| `ip_netblocks` | CIDR ranges, ASN, organisation, and each block's last-modified date for IP/ASN/org. |
 | `vpn_proxy_detection` | Whether an IP is a known VPN, proxy, Tor exit, relay, hosting or CDN address, with a 0–100 risk score. |
 
 ### Threat & brand protection
@@ -125,6 +125,12 @@ docker run -i --rm -e WHOISXMLAPI_TOKEN=at_YOUR_KEY whoisxmlapidotcom/mcp-whoisx
 | `bulk_subdomain_lookup` | Subdomain discovery for up to 200 apex domains. |
 | `bulk_job_status` | Progress of an in-flight bulk job. |
 | `bulk_job_results` | Full per-input results of a completed bulk job. |
+
+### Account
+
+| Tool | What it does |
+|---|---|
+| `account_balance` | Credits left on each product of your WhoisXML account, and which tools spend them. Free. |
 
 ## Example prompts
 
