@@ -113,7 +113,7 @@ docker run -i --rm -e WHOISXMLAPI_TOKEN=at_YOUR_KEY whoisxmlapidotcom/mcp-whoisx
 |---|---|
 | `website_screenshot` | Capture a web page screenshot, returned as a native image content block. |
 
-### Native bulk
+### Bulk
 
 | Tool | What it does |
 |---|---|
