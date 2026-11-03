@@ -11,7 +11,7 @@ The official [WhoisXML API](https://www.whoisxmlapi.com) MCP server: **35 first-
 - **Docker image:** [`whoisxmlapidotcom/mcp-whoisxmlapi`](https://hub.docker.com/r/whoisxmlapidotcom/mcp-whoisxmlapi)
 - **MCP Registry:** `io.github.whois-api-llc/mcp-whoisxmlapi`
 
-> This repository is the public listing home for the server. Distribution is via the hosted endpoint, npm, and Docker Hub; the implementation source is maintained privately by Whois API, Inc.
+> This repository is the public listing home for the server. Distribution is via the hosted endpoint, npm, Docker Hub, and the Claude Desktop installer on the [Downloads page](https://mcp.whoisxmlapi.com/downloads); the implementation source is maintained privately by Whois API, Inc.
 
 ## Hosted endpoint (no install)
 
