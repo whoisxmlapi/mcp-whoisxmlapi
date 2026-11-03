@@ -125,7 +125,7 @@
     },
     {
       "name": "reverse_whois_advanced",
-      "description": "Find domains using field-specific WHOIS searches — e.g."
+      "description": "Find domains using field-specific WHOIS searches — e.g. `RegistrantContact.Organization`, `DomainName`, `NameServers`."
     },
     {
       "name": "ssl_certificates",
