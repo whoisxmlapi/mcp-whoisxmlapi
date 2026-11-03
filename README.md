@@ -4,7 +4,7 @@
 
 # WhoisXML API MCP Server
 
-The official [WhoisXML API](https://www.whoisxmlapi.com) MCP server: **35 first-party tools** for WHOIS, DNS, IP geolocation, threat intelligence, typosquatting, email verification, and native bulk lookups — in Claude, Cursor, VS Code, LobeChat, or any MCP client.
+The official [WhoisXML API](https://www.whoisxmlapi.com) MCP server: **35 first-party tools** for WHOIS, DNS, IP geolocation, threat intelligence, typosquatting, email verification, and bulk lookups — in Claude, Cursor, VS Code, LobeChat, or any MCP client.
 
 - **Documentation:** <https://mcp.whoisxmlapi.com>
 - **npm package:** [`@whoisxmlapidotcom/mcp-whoisxmlapi`](https://www.npmjs.com/package/@whoisxmlapidotcom/mcp-whoisxmlapi)
@@ -54,6 +54,10 @@ Requires a WhoisXML API key — get one at <https://whoisxmlapi.com>.
 ```bash
 docker run -i --rm -e WHOISXMLAPI_TOKEN=at_YOUR_KEY whoisxmlapidotcom/mcp-whoisxmlapi
 ```
+
+**Claude Desktop (macOS and Windows):**
+
+From 1.13.0, each release ships a one-file Claude Desktop installer, `mcp-whoisxmlapi-<version>.mcpb`. Download it from <https://mcp.whoisxmlapi.com/downloads>, open it, and enter your WhoisXML API key when Claude Desktop asks for it.
 
 ## Tools (35)
 
@@ -113,7 +117,7 @@ docker run -i --rm -e WHOISXMLAPI_TOKEN=at_YOUR_KEY whoisxmlapidotcom/mcp-whoisx
 |---|---|
 | `website_screenshot` | Capture a web page screenshot, returned as a native image content block. |
 
-### Native bulk
+### Bulk
 
 | Tool | What it does |
 |---|---|
