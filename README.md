@@ -108,7 +108,7 @@ From 1.13.0, each release ships a one-file Claude Desktop installer, `mcp-whoisx
 
 | Tool | What it does |
 |---|---|
-| `email_verification` | Syntax, MX, and SMTP deliverability checks; flags disposable/role/free/catch-all. |
+| `email_verification` | Syntax, MX, and SMTP deliverability checks; flags disposable/free/catch-all. |
 | `disposable_email_check` | Boolean verdict on disposable/temporary email providers. |
 
 ### Screenshots
