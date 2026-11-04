@@ -85,7 +85,7 @@
     },
     {
       "name": "domain_reputation",
-      "description": "Score a single domain's trustworthiness on a 0–100 scale by running live infrastructure and configuration checks (certificate validity, mail and name-server setup, malware-database and blackhole looku…"
+      "description": "Score a single domain's trustworthiness on a 0–100 scale by running live infrastructure and configuration checks (certificate validity, mail and name-server setup, malware-database and blackhole…"
     },
     {
       "name": "email_verification",
