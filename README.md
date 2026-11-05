@@ -7,6 +7,7 @@
 The official [WhoisXML API](https://www.whoisxmlapi.com) MCP server: **35 first-party tools** for WHOIS, DNS, IP geolocation, threat intelligence, typosquatting, email verification, and bulk lookups — in Claude, Cursor, VS Code, LobeChat, or any MCP client.
 
 - **Documentation:** <https://mcp.whoisxmlapi.com>
+- **Install guide for AI agents:** <https://mcp.whoisxmlapi.com/llms-install.md>
 - **npm package:** [`@whoisxmlapidotcom/mcp-whoisxmlapi`](https://www.npmjs.com/package/@whoisxmlapidotcom/mcp-whoisxmlapi)
 - **Docker image:** [`whoisxmlapidotcom/mcp-whoisxmlapi`](https://hub.docker.com/r/whoisxmlapidotcom/mcp-whoisxmlapi)
 - **MCP Registry:** `io.github.whois-api-llc/mcp-whoisxmlapi`
