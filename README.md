@@ -32,6 +32,16 @@ https://mcp-hosted.whoisxmlapi.com/mcp
 }
 ```
 
+### Gemini CLI
+
+This repository is also a Gemini CLI extension that connects Gemini CLI to the hosted server:
+
+```bash
+gemini extensions install https://github.com/whoisxmlapi/mcp-whoisxmlapi
+```
+
+The next time you start `gemini`, it asks to open the sign-in page in your browser, where you enter your WhoisXML API key.
+
 ## Run locally
 
 Requires a WhoisXML API key — get one at <https://whoisxmlapi.com>.
