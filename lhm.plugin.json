@@ -1,8 +1,8 @@
 {
   "identifier": "whoisxmlapi-mcp-whoisxmlapi",
   "name": "WhoisXML API MCP Server",
-  "version": "1.17.1",
-  "description": "The official WhoisXML API MCP server: 35 first-party tools for WHOIS, DNS, IP geolocation, threat intel, typosquatting, email verification, and bulk lookups.",
+  "version": "1.19.0",
+  "description": "The official WhoisXML API MCP server: 37 first-party tools for WHOIS, DNS, IP geolocation, threat intel, typosquatting, email verification, and bulk lookups.",
   "author": "Whois API, Inc.",
   "authorUrl": "https://www.whoisxmlapi.com",
   "homepage": "https://mcp.whoisxmlapi.com",
@@ -21,7 +21,7 @@
   "tools": [
     {
       "name": "account_balance",
-      "description": "Show how many credits this WhoisXML API account has left on each product, and which tools spend each product's credits."
+      "description": "Show how many credits this WhoisXML API account has left, and which tools spend each product's credits."
     },
     {
       "name": "brand_alert",
@@ -30,6 +30,10 @@
     {
       "name": "bulk_dns_lookup",
       "description": "Run DNS lookups for up to 200 domains in a single call."
+    },
+    {
+      "name": "bulk_domain_availability",
+      "description": "Check registration availability for up to 200 domain names in a single call."
     },
     {
       "name": "bulk_email_verification",
@@ -78,6 +82,10 @@
     {
       "name": "domain_and_subdomain_discovery",
       "description": "Search WhoisXMLAPI's domain and subdomain index for names containing one or more search terms."
+    },
+    {
+      "name": "domain_availability",
+      "description": "Check whether a single domain name is free to register or already taken, and return AVAILABLE, UNAVAILABLE or UNDETERMINED exactly as the Domain Availability API reports it (1 credit per lookup)."
     },
     {
       "name": "domain_info",
