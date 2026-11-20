@@ -4,7 +4,7 @@
 
 # WhoisXML API MCP Server
 
-The official [WhoisXML API](https://www.whoisxmlapi.com) MCP server: **35 first-party tools** for WHOIS, DNS, IP geolocation, threat intelligence, typosquatting, email verification, and bulk lookups — in Claude, Cursor, VS Code, LobeChat, or any MCP client.
+The official [WhoisXML API](https://www.whoisxmlapi.com) MCP server: **37 first-party tools** for WHOIS, DNS, IP geolocation, threat intelligence, typosquatting, email verification, and bulk lookups — in Claude, Cursor, VS Code, LobeChat, or any MCP client.
 
 - **Documentation:** <https://mcp.whoisxmlapi.com>
 - **Install guide for AI agents:** <https://mcp.whoisxmlapi.com/llms-install.md>
@@ -70,7 +70,7 @@ docker run -i --rm -e WHOISXMLAPI_TOKEN=at_YOUR_KEY whoisxmlapidotcom/mcp-whoisx
 
 From 1.13.0, each release ships a one-file Claude Desktop installer, `mcp-whoisxmlapi-<version>.mcpb`. Download it from <https://mcp.whoisxmlapi.com/downloads>, open it, and enter your WhoisXML API key when Claude Desktop asks for it.
 
-## Tools (35)
+## Tools (37)
 
 ### Domain intelligence
 
@@ -81,6 +81,7 @@ From 1.13.0, each release ships a one-file Claude Desktop installer, `mcp-whoisx
 | `domain_info` | Enriched WHOIS profile combining current + historical records to fill redacted fields. |
 | `reverse_whois` | Every domain whose WHOIS record contains a free-text term (name, email, org, address). |
 | `reverse_whois_advanced` | Field-specific WHOIS searches (e.g. `RegistrantContact.Organization`), up to 4 terms. |
+| `domain_availability` | Whether a domain name is registered or free to register — AVAILABLE, UNAVAILABLE, or UNDETERMINED. |
 | `domain_reputation` | 0–100 trust score from live infrastructure and configuration checks. |
 | `typosquatting` | Check whether a domain belongs to a typosquatting group, or expand the full group. |
 | `categorization` | Classify a domain into IAB Content Taxonomy v3.1 categories. |
@@ -138,6 +139,7 @@ From 1.13.0, each release ships a one-file Claude Desktop installer, `mcp-whoisx
 | `bulk_dns_lookup` | DNS lookups for up to 200 domains, fanned out concurrently. |
 | `bulk_ip_geolocation` | IP geolocation for up to 200 IPs, fanned out concurrently. |
 | `bulk_subdomain_lookup` | Subdomain discovery for up to 200 apex domains. |
+| `bulk_domain_availability` | Registration availability for up to 200 domain names, fanned out concurrently. |
 | `bulk_job_status` | Progress of an in-flight bulk job. |
 | `bulk_job_results` | Full per-input results of a completed bulk job. |
 
@@ -145,7 +147,7 @@ From 1.13.0, each release ships a one-file Claude Desktop installer, `mcp-whoisx
 
 | Tool | What it does |
 |---|---|
-| `account_balance` | Credits left on each product of your WhoisXML account, and which tools spend them. Free. |
+| `account_balance` | Credits your WhoisXML account has left, and which tools spend each product's credits. Free. |
 
 ## Example prompts
 
