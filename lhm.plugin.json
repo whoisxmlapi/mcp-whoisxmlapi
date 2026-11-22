@@ -1,8 +1,8 @@
 {
   "identifier": "whoisxmlapi-mcp-whoisxmlapi",
   "name": "WhoisXML API MCP Server",
-  "version": "1.19.0",
-  "description": "The official WhoisXML API MCP server: 37 first-party tools for WHOIS, DNS, IP geolocation, threat intel, typosquatting, email verification, and bulk lookups.",
+  "version": "1.20.0",
+  "description": "The official WhoisXML API MCP server: 38 first-party tools for WHOIS, DNS, IP geolocation, threat intel, typosquatting, email verification, and bulk lookups.",
   "author": "Whois API, Inc.",
   "authorUrl": "https://www.whoisxmlapi.com",
   "homepage": "https://mcp.whoisxmlapi.com",
@@ -81,7 +81,7 @@
     },
     {
       "name": "domain_and_subdomain_discovery",
-      "description": "Search WhoisXMLAPI's domain and subdomain index for names containing one or more search terms."
+      "description": "Search WhoisXMLAPI's domain and subdomain index for names containing one or more search terms, whatever their age; pass `since` for names first seen after a date."
     },
     {
       "name": "domain_availability",
@@ -90,6 +90,10 @@
     {
       "name": "domain_info",
       "description": "Get an enriched WHOIS profile for a domain by combining the current record with historical records to fill redacted or missing fields."
+    },
+    {
+      "name": "domain_profile",
+      "description": "Summarizes one domain in one call: age and renewal, blocklist hits, SPF/DMARC policy."
     },
     {
       "name": "domain_reputation",
