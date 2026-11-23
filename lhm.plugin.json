@@ -1,8 +1,8 @@
 {
   "identifier": "whoisxmlapi-mcp-whoisxmlapi",
   "name": "WhoisXML API MCP Server",
-  "version": "1.20.0",
-  "description": "The official WhoisXML API MCP server: 38 first-party tools for WHOIS, DNS, IP geolocation, threat intel, typosquatting, email verification, and bulk lookups.",
+  "version": "1.21.0",
+  "description": "The official WhoisXML API MCP server: 40 first-party tools for WHOIS, DNS, IP geolocation, threat intel, typosquatting, email verification, and bulk lookups.",
   "author": "Whois API, Inc.",
   "authorUrl": "https://www.whoisxmlapi.com",
   "homepage": "https://mcp.whoisxmlapi.com",
@@ -104,12 +104,20 @@
       "description": "Verify an email address via syntax check, MX lookup, and SMTP deliverability probe."
     },
     {
+      "name": "infrastructure_pivot",
+      "description": "Pivot from one domain to the infrastructure behind it and the other domains that share it, in one call."
+    },
+    {
       "name": "ip_netblocks",
       "description": "Look up CIDR ranges, ASN number/name, organisation, and each block's last-modified date for an IP address, ASN, or organisation name."
     },
     {
       "name": "ipgeolocation",
       "description": "Get geolocation data (country, region, city, ISP, ASN) for an IP address, domain, or email."
+    },
+    {
+      "name": "lookalike_triage",
+      "description": "Triage the look-alikes of one brand's domain in one call: searches names first seen lately that contain the brand's name, ranks them, sets aside suffixes that answer any name, and checks the top…"
     },
     {
       "name": "registrant_alert",

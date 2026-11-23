@@ -4,7 +4,7 @@
 
 # WhoisXML API MCP Server
 
-The official [WhoisXML API](https://www.whoisxmlapi.com) MCP server: **38 first-party tools** for WHOIS, DNS, IP geolocation, threat intelligence, typosquatting, email verification, and bulk lookups — in Claude, Cursor, VS Code, LobeChat, or any MCP client.
+The official [WhoisXML API](https://www.whoisxmlapi.com) MCP server: **40 first-party tools** for WHOIS, DNS, IP geolocation, threat intelligence, typosquatting, email verification, and bulk lookups — in Claude, Cursor, VS Code, LobeChat, or any MCP client.
 
 - **Documentation:** <https://mcp.whoisxmlapi.com>
 - **Install guide for AI agents:** <https://mcp.whoisxmlapi.com/llms-install.md>
@@ -70,7 +70,7 @@ docker run -i --rm -e WHOISXMLAPI_TOKEN=at_YOUR_KEY whoisxmlapidotcom/mcp-whoisx
 
 From 1.13.0, each release ships a one-file Claude Desktop installer, `mcp-whoisxmlapi-<version>.mcpb`. Download it from <https://mcp.whoisxmlapi.com/downloads>, open it, and enter your WhoisXML API key when Claude Desktop asks for it.
 
-## Tools (38)
+## Tools (40)
 
 ### Domain intelligence
 
@@ -97,6 +97,7 @@ From 1.13.0, each release ships a one-file Claude Desktop installer, `mcp-whoisx
 | `reverse_ip` | Every domain currently pointing at an IP, with first-/last-seen dates. |
 | `reverse_mx` | Every domain using a specific MX server. |
 | `reverse_ns` | Every domain delegated to a specific nameserver. |
+| `infrastructure_pivot` | From one domain to its name servers, mail servers and hosting, and how many other domains share each; big shared providers are named, not followed (at most 14 credits by default). |
 | `subdomain_lookup` | Enumerate a domain's known subdomains with seen timestamps, paging past the 10,000-per-request cap. |
 | `domain_and_subdomain_discovery` | Domains/subdomains of any age containing search terms (wildcards supported; `since` filters by first-seen date). |
 | `ssl_certificates` | TLS certificate details — issuer, validity, SANs, chain trust. |
@@ -115,6 +116,7 @@ From 1.13.0, each release ships a one-file Claude Desktop installer, `mcp-whoisx
 |---|---|
 | `threat_intelligence` | Check a domain, URL, IP, CIDR, or file hash against malware/phishing/spam/botnet feeds. |
 | `brand_alert` | Newly added/dropped/updated domains containing brand terms — typosquat & lookalike monitoring. |
+| `lookalike_triage` | New look-alike domains of one brand, found, ranked and checked in one call — registration, address records, blocklist hits (28–38 credits by default). |
 | `registrant_alert` | New/changed domains whose WHOIS registrant fields match search terms. |
 
 ### Email
