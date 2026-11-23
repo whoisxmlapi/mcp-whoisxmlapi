@@ -97,7 +97,7 @@ From 1.13.0, each release ships a one-file Claude Desktop installer, `mcp-whoisx
 | `reverse_ip` | Every domain currently pointing at an IP, with first-/last-seen dates. |
 | `reverse_mx` | Every domain using a specific MX server. |
 | `reverse_ns` | Every domain delegated to a specific nameserver. |
-| `infrastructure_pivot` | From one domain to its name servers, mail servers and hosting, and how many other domains share each; big shared providers are named, not followed (at most 14 credits by default). |
+| `infrastructure_pivot` | From one domain to its name servers, mail servers and hosting, and how many other domains share each; big shared providers are named, not followed (at most 15 credits by default). |
 | `subdomain_lookup` | Enumerate a domain's known subdomains with seen timestamps, paging past the 10,000-per-request cap. |
 | `domain_and_subdomain_discovery` | Domains/subdomains of any age containing search terms (wildcards supported; `since` filters by first-seen date). |
 | `ssl_certificates` | TLS certificate details — issuer, validity, SANs, chain trust. |
