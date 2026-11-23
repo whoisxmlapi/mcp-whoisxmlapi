@@ -1,7 +1,7 @@
 {
   "identifier": "whoisxmlapi-mcp-whoisxmlapi",
   "name": "WhoisXML API MCP Server",
-  "version": "1.21.0",
+  "version": "1.22.0",
   "description": "The official WhoisXML API MCP server: 40 first-party tools for WHOIS, DNS, IP geolocation, threat intel, typosquatting, email verification, and bulk lookups.",
   "author": "Whois API, Inc.",
   "authorUrl": "https://www.whoisxmlapi.com",
@@ -117,7 +117,7 @@
     },
     {
       "name": "lookalike_triage",
-      "description": "Triage the look-alikes of one brand's domain in one call: searches names first seen lately that contain the brand's name, ranks them, sets aside suffixes that answer any name, and checks the top…"
+      "description": "Triage the look-alikes of one brand's domain in one call: searches names first seen lately that contain the brand's name, ranks them, groups them into families (campaigns) with each one's pattern and…"
     },
     {
       "name": "registrant_alert",
