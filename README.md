@@ -106,7 +106,7 @@ From 1.13.0, each release ships a one-file Claude Desktop installer, `mcp-whoisx
 
 | Tool | What it does |
 |---|---|
-| `ip_profile` | One-call profile of an IPv4 or IPv6 address — rough location, network and holder, VPN/proxy/Tor flags and blocklist hits by default (at most 5 credits); more parts via `sections`. |
+| `ip_profile` | One-call profile of an IPv4 or IPv6 address — rough location, network and holder, anonymizer flags and blocklist hits by default (at most 5 credits); more parts via `sections`. |
 | `ipgeolocation` | Country, region, city, ISP, ASN for an IP, domain, or email. |
 | `ip_netblocks` | CIDR ranges, ASN, organisation, and each block's last-modified date for IP/ASN/org. |
 | `vpn_proxy_detection` | Whether an IP is a known VPN, proxy, Tor exit, relay, hosting or CDN address, with a 0–100 risk score. |
