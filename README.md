@@ -4,7 +4,7 @@
 
 # WhoisXML API MCP Server
 
-The official [WhoisXML API](https://www.whoisxmlapi.com) MCP server: **40 first-party tools** for WHOIS, DNS, IP geolocation, threat intelligence, typosquatting, email verification, and bulk lookups — in Claude, Cursor, VS Code, LobeChat, or any MCP client.
+The official [WhoisXML API](https://www.whoisxmlapi.com) MCP server: **41 first-party tools** for WHOIS, DNS, IP geolocation, threat intelligence, typosquatting, email verification, and bulk lookups — in Claude, Cursor, VS Code, LobeChat, or any MCP client.
 
 - **Documentation:** <https://mcp.whoisxmlapi.com>
 - **Install guide for AI agents:** <https://mcp.whoisxmlapi.com/llms-install.md>
@@ -70,7 +70,7 @@ docker run -i --rm -e WHOISXMLAPI_TOKEN=at_YOUR_KEY whoisxmlapidotcom/mcp-whoisx
 
 From 1.13.0, each release ships a one-file Claude Desktop installer, `mcp-whoisxmlapi-<version>.mcpb`. Download it from <https://mcp.whoisxmlapi.com/downloads>, open it, and enter your WhoisXML API key when Claude Desktop asks for it.
 
-## Tools (40)
+## Tools (41)
 
 ### Domain intelligence
 
@@ -106,6 +106,7 @@ From 1.13.0, each release ships a one-file Claude Desktop installer, `mcp-whoisx
 
 | Tool | What it does |
 |---|---|
+| `ip_profile` | One-call profile of an IPv4 or IPv6 address — rough location, network and holder, VPN/proxy/Tor flags and blocklist hits by default (at most 5 credits); more parts via `sections`. |
 | `ipgeolocation` | Country, region, city, ISP, ASN for an IP, domain, or email. |
 | `ip_netblocks` | CIDR ranges, ASN, organisation, and each block's last-modified date for IP/ASN/org. |
 | `vpn_proxy_detection` | Whether an IP is a known VPN, proxy, Tor exit, relay, hosting or CDN address, with a 0–100 risk score. |

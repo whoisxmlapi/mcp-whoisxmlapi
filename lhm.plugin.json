@@ -1,8 +1,8 @@
 {
   "identifier": "whoisxmlapi-mcp-whoisxmlapi",
   "name": "WhoisXML API MCP Server",
-  "version": "1.22.0",
-  "description": "The official WhoisXML API MCP server: 40 first-party tools for WHOIS, DNS, IP geolocation, threat intel, typosquatting, email verification, and bulk lookups.",
+  "version": "1.23.0",
+  "description": "The official WhoisXML API MCP server: 41 first-party tools for WHOIS, DNS, IP geolocation, threat intel, typosquatting, email verification, and bulk lookups.",
   "author": "Whois API, Inc.",
   "authorUrl": "https://www.whoisxmlapi.com",
   "homepage": "https://mcp.whoisxmlapi.com",
@@ -110,6 +110,10 @@
     {
       "name": "ip_netblocks",
       "description": "Look up CIDR ranges, ASN number/name, organisation, and each block's last-modified date for an IP address, ASN, or organisation name."
+    },
+    {
+      "name": "ip_profile",
+      "description": "Profiles one IPv4 or IPv6 in one call: an overview of what it is, with rough location, network and holder, anonymizer flags, blocklist hits and crowding."
     },
     {
       "name": "ipgeolocation",
